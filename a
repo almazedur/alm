@@ -1,0 +1,6 @@
+from pandas import DataFrame, Series
+import pandas as pd
+
+data = pd.read_excel (r'D:\PHD Tamu\TA\Data Science\Assignments\Python Assignment 1.xlsx')
+salespeople = pd.DataFrame(data.head(5))
+print (salespeople)
